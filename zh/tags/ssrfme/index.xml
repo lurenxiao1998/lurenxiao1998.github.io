@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>SSRFMe on 路人枭的博客</title>
+    <link>https://lurenxiao1998.github.io/zh/tags/ssrfme/</link>
+    <description>Recent content in SSRFMe on 路人枭的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>lurenxiao98@gmail.com (Lurenxiao)</managingEditor>
+    <webMaster>lurenxiao98@gmail.com (Lurenxiao)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 08 Dec 2019 18:20:20 +0900</lastBuildDate>
+    
+        <atom:link href="https://lurenxiao1998.github.io/zh/tags/ssrfme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>BUUCTF SSRFMe</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/ssrf-me/</link>
+        <pubDate>Sun, 08 Dec 2019 18:20:20 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Sun, 08 Dec 2019 18:20:20 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/ssrf-me/</guid>
+        <description>解法一 哈希拓展攻击 secert_key 是一个长度为 16 的字符串，在 /geneSign?param=flag.txt 中可以获取hashlib.md5(secert_key + param + action).hexdigest() ，密钥param不动，增加ac</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>De1CTF</category>
+            
+          
+            
+              <category>SSRFMe</category>
+            
+          
+            
+              <category>SSRFMe</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

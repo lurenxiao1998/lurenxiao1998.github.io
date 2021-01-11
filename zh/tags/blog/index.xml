@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>blog on 路人枭的博客</title>
+    <link>https://lurenxiao1998.github.io/zh/tags/blog/</link>
+    <description>Recent content in blog on 路人枭的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>lurenxiao98@gmail.com (Lurenxiao)</managingEditor>
+    <webMaster>lurenxiao98@gmail.com (Lurenxiao)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 20 Nov 2019 10:33:41 +0900</lastBuildDate>
+    
+        <atom:link href="https://lurenxiao1998.github.io/zh/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>搭建个人博客</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/firstblog/</link>
+        <pubDate>Wed, 20 Nov 2019 10:33:41 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Wed, 20 Nov 2019 10:33:41 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/firstblog/</guid>
+        <description>环境 Arch Linux ( Manjaro Linux) Hugo 1 G 的剩余空间 搭建 1 2 pacman -Syy pacman -Syu hugo 前往hugo主题挑选一个你喜欢的主题，挑选好了之后进入它的homepage。这里我选择的是z</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>博客</category>
+            
+          
+            
+              <category>hugo</category>
+            
+          
+            
+              <category>gitpage</category>
+            
+          
+            
+              <category>blog</category>
+            
+          
+            
+              <category>manjaro</category>
+            
+          
+            
+              <category>阿里云</category>
+            
+          
+            
+              <category>zzo</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

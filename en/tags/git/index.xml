@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>git on Hugo Zzo Theme</title>
+    <link>https://lurenxiao1998.github.io/en/tags/git/</link>
+    <description>Recent content in git on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>lurenxiao98@gmail.com (Lurenxiao)</managingEditor>
+    <webMaster>lurenxiao98@gmail.com (Lurenxiao)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 09 Dec 2019 18:06:20 +0900</lastBuildDate>
+    
+        <atom:link href="https://lurenxiao1998.github.io/en/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>不用输入密码git push</title>
+        <link>https://lurenxiao1998.github.io/en/posts/%E4%B8%8D%E7%94%A8%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81git-push/</link>
+        <pubDate>Mon, 09 Dec 2019 18:06:20 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 09 Dec 2019 18:06:20 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/%E4%B8%8D%E7%94%A8%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81git-push/</guid>
+        <description>方法一 输入 git config --global credential.helper store 之后push一次即可 方法二（ssh-keygen） 生成秘钥 参考服务器上的 Git - 生成 SSH 公钥 放到github上 把~/.ssh/</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

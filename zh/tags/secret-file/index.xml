@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Secret File on 路人枭的博客</title>
+    <link>https://lurenxiao1998.github.io/zh/tags/secret-file/</link>
+    <description>Recent content in Secret File on 路人枭的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>lurenxiao98@gmail.com (Lurenxiao)</managingEditor>
+    <webMaster>lurenxiao98@gmail.com (Lurenxiao)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 18 Jan 2020 14:23:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://lurenxiao1998.github.io/zh/tags/secret-file/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>[极客大挑战 2019]Secret File</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019secret-file/</link>
+        <pubDate>Sat, 18 Jan 2020 14:23:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Sat, 18 Jan 2020 14:23:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019secret-file/</guid>
+        <description>[极客大挑战 2019]Secret File 知识点 配合php伪协议利用文件包含漏洞 PHP伪协议总结 使用php的file伪协议去读取文件 payload ?file=php://filter/convert.base64-encode/resource=flag.php</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>Secret File</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

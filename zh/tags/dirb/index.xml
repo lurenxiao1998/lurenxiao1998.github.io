@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>dirb on 路人枭的博客</title>
+    <link>https://lurenxiao1998.github.io/zh/tags/dirb/</link>
+    <description>Recent content in dirb on 路人枭的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>lurenxiao98@gmail.com (Lurenxiao)</managingEditor>
+    <webMaster>lurenxiao98@gmail.com (Lurenxiao)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 12 Dec 2019 14:32:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://lurenxiao1998.github.io/zh/tags/dirb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>web扫描工具</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/web%E6%89%AB%E6%8F%8F%E5%B7%A5%E5%85%B7/</link>
+        <pubDate>Thu, 12 Dec 2019 14:32:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Thu, 12 Dec 2019 14:32:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/web%E6%89%AB%E6%8F%8F%E5%B7%A5%E5%85%B7/</guid>
+        <description>dirsearch、dirb和nikto；御剑 这些软件单独一个都不一定能够扫出，比如说fakebook这道题nikto能扫，[0CTF 201</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>dirsearch</category>
+            
+          
+            
+              <category>dirb</category>
+            
+          
+            
+              <category>nikto</category>
+            
+          
+            
+              <category>御剑</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>工具</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Knife on Hugo Zzo Theme</title>
+    <link>https://lurenxiao1998.github.io/en/tags/knife/</link>
+    <description>Recent content in Knife on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>lurenxiao98@gmail.com (Lurenxiao)</managingEditor>
+    <webMaster>lurenxiao98@gmail.com (Lurenxiao)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 20 Jan 2020 18:38:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://lurenxiao1998.github.io/en/tags/knife/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>[极客大挑战 2019]Knife</title>
+        <link>https://lurenxiao1998.github.io/en/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019knife/</link>
+        <pubDate>Mon, 20 Jan 2020 18:38:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 20 Jan 2020 18:38:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/en/posts/%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019knife/</guid>
+        <description>知识点 一句话木马 解题过程 弟弟题，直接给了shell payload 1 system(&amp;#34;ls -l /&amp;#34;); 1 system(&amp;#34;cat /flag&amp;#34;);</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>Knife</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

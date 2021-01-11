@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>shrine on 路人枭的博客</title>
+    <link>https://lurenxiao1998.github.io/zh/tags/shrine/</link>
+    <description>Recent content in shrine on 路人枭的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>lurenxiao98@gmail.com (Lurenxiao)</managingEditor>
+    <webMaster>lurenxiao98@gmail.com (Lurenxiao)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 31 Jan 2020 16:48:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://lurenxiao1998.github.io/zh/tags/shrine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>[WesternCTF2018]shrine</title>
+        <link>https://lurenxiao1998.github.io/zh/posts/westernctf2018shrine/</link>
+        <pubDate>Fri, 31 Jan 2020 16:48:00 +0900</pubDate>
+        <author>lurenxiao98@gmail.com (Lurenxiao)</author>
+        <atom:modified>Fri, 31 Jan 2020 16:48:00 +0900</atom:modified>
+        <guid>https://lurenxiao1998.github.io/zh/posts/westernctf2018shrine/</guid>
+        <description>分析 打开网页首先是一段源码，右键查看网页源代码，如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 import flask import os app = flask.Flask(__name__) app.config[&amp;#39;FLAG&amp;#39;] = os.environ.pop(&amp;#39;FLAG&amp;#39;) @app.route(&amp;#39;/&amp;#39;) def index(): return open(__file__).read() @app.route(&amp;#39;/shrine/&amp;lt;path:shrine&amp;gt;&amp;#39;)</description>
+        
+        <dc:creator>Lurenxiao</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>BUUCTF</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>shrine</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+        
+        
+          
+            
+              <category>webctf</category>
+            
+          
+            
+              <category>BUUCTF</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
